@@ -1,0 +1,7 @@
+<phpunit bootstrap="tests/bootstrap.php" colors="true" testdox="true">
+    <testsuites>
+        <testsuite name="models">
+            <directory phpVersion="8.1.0" phpVersionOperator=">=">tests/Models</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
